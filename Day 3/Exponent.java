@@ -24,5 +24,7 @@ class Exponent {
 
         ExponentCalculation e = new ExponentCalculation(x, n);
         System.out.print("exponent value of " + x + "^" + n + " is :" + e.r);
+
+        sc.close();
     }
 }
